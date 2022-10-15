@@ -1,0 +1,46 @@
+body
+{
+    color: #999;
+    background-color: #222;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: right;
+}
+
+h1
+{
+    color: white;
+}
+
+h2
+{
+    color: lightgray;
+}
+
+li
+{
+    list-style: none;
+}
+
+.main-header
+{
+    text-align: center;
+    font-size: 250%;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.text-L
+{
+    font-size: larger;
+}
+
+.color-CCC
+{
+    color: #CCC;
+}
