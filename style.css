@@ -5,8 +5,6 @@ body
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-x: right;
 }
 
 h1
@@ -43,4 +41,30 @@ li
 .color-CCC
 {
     color: #CCC;
+}
+
+.SW-html
+{
+    background-image: url(https://rare-gallery.com/resol/1920x1080/57084-Windguard-Century-Age-of-AshesCentury-Age-Of-Ashes.jpg);
+    padding-right: 40%;
+}
+
+.NP-html
+{
+    background-image: url(https://rare-gallery.com/resol/1920x1080/57081-Phantom-Century-Age-of-AshesCentury-Age-Of-Ashes.jpg);
+    padding-right: 40%;
+}
+
+
+.SM-html
+{
+    background-image: url(https://rare-gallery.com/resol/1920x1080/57085-Marauder-Century-Age-of-AshesCentury-Age-Of-Ashes.jpg);
+    padding-right: 40%;
+}
+
+.main-html
+{
+    background-image: url(https://pbs.twimg.com/media/FYRy-1eWYAA65BY.jpg:large);
+    padding-right: 20%;
+    padding-top: 300px;
 }
