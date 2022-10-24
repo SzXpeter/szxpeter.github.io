@@ -1,10 +1,12 @@
 body
 {
-    color: #999;
-    background-color: #222;
+    color: #AAA;
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-width: 400px;
 }
 
 h1
@@ -20,6 +22,18 @@ h2
 li
 {
     list-style: none;
+}
+
+table
+{
+    text-align: center;
+    margin: 0px auto;
+}
+
+td
+{
+    padding-right: 10%;
+    font-size: 1vw;
 }
 
 .main-header
@@ -43,28 +57,33 @@ li
     color: #CCC;
 }
 
-.SW-html
+.table-jpg
+{
+    width: 50%;
+}
+
+#SW-html
 {
     background-image: url(https://rare-gallery.com/resol/1920x1080/57084-Windguard-Century-Age-of-AshesCentury-Age-Of-Ashes.jpg);
     padding-right: 40%;
 }
 
-.NP-html
+#NP-html
 {
     background-image: url(https://rare-gallery.com/resol/1920x1080/57081-Phantom-Century-Age-of-AshesCentury-Age-Of-Ashes.jpg);
     padding-right: 40%;
 }
 
 
-.SM-html
+#SM-html
 {
     background-image: url(https://rare-gallery.com/resol/1920x1080/57085-Marauder-Century-Age-of-AshesCentury-Age-Of-Ashes.jpg);
     padding-right: 40%;
 }
 
-.main-html
+#main-html
 {
-    background-image: url(https://pbs.twimg.com/media/FYRy-1eWYAA65BY.jpg:large);
-    padding-right: 20%;
-    padding-top: 300px;
+    background-image: url(https://initiate.alphacoders.com/images/119/cropped-1920-1080-1193815.jpg?5885);
+    padding: 10px 5%;
+    color: #000;
 }
