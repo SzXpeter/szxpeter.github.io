@@ -1,12 +1,13 @@
 body
 {
     color: #AAA;
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-family: 'Lora', serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     min-width: 400px;
+    background-position: center;
 }
 
 h1
@@ -26,14 +27,24 @@ li
 
 table
 {
-    text-align: center;
-    margin: 0px auto;
+    border-collapse: collapse;
 }
 
 td
 {
-    padding-right: 10%;
-    font-size: 1vw;
+    border: 1px solid #000;
+    padding: 10px 10px;
+    background-color: rgba(150, 150, 150, 0.2);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+td img
+{
+    width: 100px;
 }
 
 .main-header
@@ -57,33 +68,43 @@ td
     color: #CCC;
 }
 
-.table-jpg
+.Characters a
 {
-    width: 50%;
+    float: left;
+    margin: 25px 50px;
+}
+
+.Characters img
+{
+    width: 300px;
+}
+
+#SM-html
+{
+    background-image: url(https://www.century-age-of-ashes.com/wp-content/themes/century-age-of-ashes/images/opt_H_PLAYSTYLE_marauder_new.jpg);
+    margin-right: 40%;
 }
 
 #SW-html
 {
-    background-image: url(https://rare-gallery.com/resol/1920x1080/57084-Windguard-Century-Age-of-AshesCentury-Age-Of-Ashes.jpg);
-    padding-right: 40%;
+    background-image: url(https://www.century-age-of-ashes.com/wp-content/themes/century-age-of-ashes/images/opt_H_PLAYSTYLE_windguard_new.jpg);
+    margin-right: 40%;
 }
 
 #NP-html
 {
-    background-image: url(https://rare-gallery.com/resol/1920x1080/57081-Phantom-Century-Age-of-AshesCentury-Age-Of-Ashes.jpg);
-    padding-right: 40%;
+    background-image: url(https://www.century-age-of-ashes.com/wp-content/themes/century-age-of-ashes/images/opt_H_PLAYSTYLE_phantom_new.jpg);
+    margin-right: 40%;
 }
 
-
-#SM-html
+#SR-html
 {
-    background-image: url(https://rare-gallery.com/resol/1920x1080/57085-Marauder-Century-Age-of-AshesCentury-Age-Of-Ashes.jpg);
-    padding-right: 40%;
+    background-image: url(https://www.century-age-of-ashes.com/wp-content/themes/century-age-of-ashes/images/opt_H_PLAYSTYLE_stormraiser_new.jpg);
+    margin-right: 40%;
 }
 
 #main-html
 {
-    background-image: url(https://initiate.alphacoders.com/images/119/cropped-1920-1080-1193815.jpg?5885);
-    padding: 10px 5%;
-    color: #000;
+    background-image: url(index-bg.png);
+    padding: inherit 5%;
 }
