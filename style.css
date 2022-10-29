@@ -1,13 +1,15 @@
 body
 {
     color: #AAA;
-    font-size: 22px;
-    font-family: 'Lora', serif;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     min-width: 400px;
     background-position: center;
+    margin: 0 2.5%;
+    font-weight: 700;
 }
 
 h1
@@ -107,4 +109,6 @@ td img
 {
     background-image: url(index-bg.png);
     padding: inherit 5%;
+    color: #AAA;
+    -webkit-text-stroke: 0.7px #000;
 }
