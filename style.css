@@ -37,7 +37,7 @@ td
 {
     border: 1px solid #000;
     padding: 10px 10px;
-    background-color: rgba(150, 150, 150, 0.2);
+    background-color: rgba(100, 100, 100, 0.5);
 }
 
 a
@@ -71,6 +71,7 @@ td img
 .color-CCC
 {
     color: #CCC;
+    -webkit-text-stroke: 0px;
 }
 
 .Characters a
@@ -123,9 +124,12 @@ td img
 #main-html
 {
     background-image: url(index-bg.png);
-    padding: inherit 5%;
     color: #000;
-    -webkit-text-stroke: 1.15px #AAA;
+}
+
+#main-html p, #main-html li
+{
+    -webkit-text-stroke: 0.4px #FFF;
 }
 
 .header img
