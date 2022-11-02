@@ -8,7 +8,7 @@ body
     background-size: cover;
     min-width: 400px;
     background-position: center;
-    margin: 0 2.5%;
+    margin: 100px 2.5%;
     font-weight: 700;
 }
 
@@ -43,6 +43,8 @@ td
 a
 {
     text-decoration: none;
+    font-size: large;
+    color: #CCC;
 }
 
 td img
@@ -82,6 +84,18 @@ td img
     width: 300px;
 }
 
+.header
+{
+    text-align: left;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    width: 40%;
+    padding-right: 60%;
+    min-width: 400px;
+    background-color: #000;
+}
+
 #SM-html
 {
     background-image: url(https://www.century-age-of-ashes.com/wp-content/themes/century-age-of-ashes/images/opt_H_PLAYSTYLE_marauder_new.jpg);
@@ -111,5 +125,17 @@ td img
     background-image: url(index-bg.png);
     padding: inherit 5%;
     color: #000;
-    -webkit-text-stroke: 1px #AAA;
+    -webkit-text-stroke: 1.15px #AAA;
+}
+
+.header img
+{
+    height: 50px;
+    margin-top: 15px;
+}
+
+.header a
+{
+    margin-left: 30px;
+    float: left;
 }
