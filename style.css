@@ -6,9 +6,9 @@ body
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    min-width: 400px;
+    min-width: 375px;
     background-position: center;
-    margin: 100px 2.5%;
+    margin-right: 40%;
     font-weight: 700;
 }
 
@@ -85,10 +85,10 @@ td img
     width: 300px;
 }
 
-.header
+.footer
 {
     text-align: left;
-    top: 0%;
+    bottom: 0%;
     left: 0%;
     position: fixed;
     width: 40%;
@@ -100,31 +100,28 @@ td img
 #SM-html
 {
     background-image: url(https://www.century-age-of-ashes.com/wp-content/themes/century-age-of-ashes/images/opt_H_PLAYSTYLE_marauder_new.jpg);
-    margin-right: 40%;
 }
 
 #SW-html
 {
     background-image: url(https://www.century-age-of-ashes.com/wp-content/themes/century-age-of-ashes/images/opt_H_PLAYSTYLE_windguard_new.jpg);
-    margin-right: 40%;
 }
 
 #NP-html
 {
     background-image: url(https://www.century-age-of-ashes.com/wp-content/themes/century-age-of-ashes/images/opt_H_PLAYSTYLE_phantom_new.jpg);
-    margin-right: 40%;
 }
 
 #SR-html
 {
     background-image: url(https://www.century-age-of-ashes.com/wp-content/themes/century-age-of-ashes/images/opt_H_PLAYSTYLE_stormraiser_new.jpg);
-    margin-right: 40%;
 }
 
 #main-html
 {
     background-image: url(index-bg.png);
     color: #000;
+    margin: 50px 2.5% 500px 2.5%;
 }
 
 #main-html p, #main-html li
@@ -132,13 +129,13 @@ td img
     -webkit-text-stroke: 0.5px #FFF;
 }
 
-.header img
+.footer img
 {
     height: 50px;
     margin-top: 15px;
 }
 
-.header a
+.footer a
 {
     margin-left: 30px;
     float: left;
