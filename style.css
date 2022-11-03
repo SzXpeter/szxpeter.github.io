@@ -9,6 +9,7 @@ body
     min-width: 375px;
     background-position: center;
     margin-right: 40%;
+    margin-top: 100px;
     font-weight: 700;
 }
 
@@ -85,16 +86,15 @@ td img
     width: 300px;
 }
 
-.footer
+.header
 {
     text-align: left;
-    bottom: 0%;
+    top: 0%;
     left: 0%;
     position: fixed;
     width: 40%;
     padding-right: 60%;
     min-width: 400px;
-    background-color: #000;
 }
 
 #SM-html
@@ -121,8 +121,7 @@ td img
 {
     background-image: url(index-bg.png);
     color: #000;
-    margin: 50px 2.5% 200px 2.5%;
-    padding-bottom: 300px;
+    margin: 100px 2.5%;
 }
 
 #main-html p, #main-html li
@@ -130,13 +129,18 @@ td img
     -webkit-text-stroke: 0.5px #FFF;
 }
 
-.footer img
+#main-html .header
+{
+    background-color: #000;
+}
+
+.header img
 {
     height: 50px;
     margin-top: 15px;
 }
 
-.footer a
+.header a
 {
     margin-left: 30px;
     float: left;
