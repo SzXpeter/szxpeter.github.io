@@ -91,10 +91,10 @@ td img
     text-align: left;
     top: 0%;
     left: 0%;
-    position: fixed;
     width: 40%;
     padding-right: 60%;
     min-width: 400px;
+    position: absolute;
 }
 
 #SM-html
@@ -132,6 +132,7 @@ td img
 #main-html .header
 {
     background-color: #000;
+    position: fixed;
 }
 
 .header img
