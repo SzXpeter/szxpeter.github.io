@@ -121,7 +121,8 @@ td img
 {
     background-image: url(index-bg.png);
     color: #000;
-    margin: 50px 2.5% 600px 2.5%;
+    margin: 50px 2.5% 200px 2.5%;
+    padding-bottom: 300px;
 }
 
 #main-html p, #main-html li
