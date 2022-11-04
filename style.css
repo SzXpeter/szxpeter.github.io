@@ -1,14 +1,13 @@
 body
 {
-    color: #AAA;
-    font-size: 21px;
+    font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     min-width: 375px;
-    background-position: center;
-    margin-right: 40%;
+    background-position: left;
+    margin-right: 50%;
     margin-top: 100px;
     font-weight: 700;
 }
@@ -16,6 +15,8 @@ body
 h1
 {
     color: white;
+    text-align: center;
+    font-size: 250%;
 }
 
 h2
@@ -48,15 +49,26 @@ a
     color: #CCC;
 }
 
+img:hover
+{
+    transform: scale(1.1);
+    transition: 100ms;
+}
+
 td img
 {
     width: 100px;
 }
 
-.main-header
+p, li
 {
-    text-align: center;
-    font-size: 250%;
+    color: #000;
+    -webkit-text-stroke: 0.55px #FFF;
+}
+
+p img
+{
+    width: 50px;
 }
 
 .bold
@@ -95,44 +107,46 @@ td img
     padding-right: 60%;
     min-width: 400px;
     position: absolute;
+    background-color: #000;
+    position: fixed;
+}
+
+.img-100px
+{
+    width: 100px;
+    float: right;
 }
 
 #SM-html
 {
     background-image: url(https://www.century-age-of-ashes.com/wp-content/themes/century-age-of-ashes/images/opt_H_PLAYSTYLE_marauder_new.jpg);
+    background-position-y: 50px;
 }
 
 #SW-html
 {
     background-image: url(https://www.century-age-of-ashes.com/wp-content/themes/century-age-of-ashes/images/opt_H_PLAYSTYLE_windguard_new.jpg);
+    background-position-y: 50px;
 }
 
 #NP-html
 {
     background-image: url(https://www.century-age-of-ashes.com/wp-content/themes/century-age-of-ashes/images/opt_H_PLAYSTYLE_phantom_new.jpg);
+    background-position-y: 50px;
 }
 
 #SR-html
 {
     background-image: url(https://www.century-age-of-ashes.com/wp-content/themes/century-age-of-ashes/images/opt_H_PLAYSTYLE_stormraiser_new.jpg);
+    background-position-y: 50px;
 }
 
 #main-html
 {
     background-image: url(index-bg.png);
-    color: #000;
     margin: 100px 2.5%;
-}
-
-#main-html p, #main-html li
-{
-    -webkit-text-stroke: 0.5px #FFF;
-}
-
-#main-html .header
-{
-    background-color: #000;
-    position: fixed;
+    background-position-y: 10px;
+    background-position-x: center;
 }
 
 .header img
