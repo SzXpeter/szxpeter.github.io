@@ -5,8 +5,9 @@ body
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position-x: left;
+    background-position-y: top;
     min-width: 375px;
-    background-position: left;
     margin-right: 50%;
     margin-top: 100px;
     font-weight: 700;
@@ -48,6 +49,11 @@ a
     text-decoration: none;
     font-size: large;
     color: #CCC;
+}
+
+a h2:hover
+{
+    color: #AAA;
 }
 
 img
