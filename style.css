@@ -95,10 +95,10 @@ p img
 
 .characters a
 {
-    width: 15%;
+    width: 17.5%;
     float: left;
-    margin: 0px 5%;
-    min-width: 250px;
+    margin: 0px 3.75%;
+    min-width: 300px;
     text-align: center;
     transition: 200ms;
 }
