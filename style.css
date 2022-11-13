@@ -93,28 +93,25 @@ p img
     width: 100%;
 }
 
-.characters img
-{
-    transition: 200ms;
-}
-
-.characters img:hover
-{
-    transform: scale(1.05);
-    transition: 200ms;
-}
-
 .characters a
 {
-    width: 20%;
+    width: 15%;
     float: left;
-    margin: 0px 2.5%;
-    min-width: 300px;
+    margin: 0px 5%;
+    min-width: 250px;
+    text-align: center;
+    transition: 200ms;
 }
 
-.characters h2:hover
+.characters a:hover
 {
-    color: #AAA;
+    transform: scale(1.1);
+    transition: 200ms;
+}
+
+.characters img
+{
+    width: 100%;
 }
 
 .header
@@ -154,11 +151,6 @@ p img
 .right
 {
     float: right;
-}
-
-.width-50
-{
-    width: 50%;
 }
 
 #SM-html
