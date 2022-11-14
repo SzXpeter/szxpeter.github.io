@@ -1,17 +1,13 @@
 body
 {
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-family: 'Rajdhani', sans-serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position-x: left;
-    background-position-y: top;
-    min-width: 375px;
-    background-position: left top;
-    margin-right: 50%;
-    margin-top: 100px;
-    font-weight: 700;
+    background-position: right top;
+    margin: 75px 50% 0 0;
+    font-weight: 1000;
 }
 
 div
@@ -21,7 +17,7 @@ div
 
 h1
 {
-    color: white;
+    color: #FFF;
     text-align: center;
     font-size: 2.5em;
     -webkit-text-stroke: 2.5px #000;
@@ -29,8 +25,8 @@ h1
 
 h2
 {
-    color: lightgray;
-    -webkit-text-stroke: 1.5px #000;
+    color: #CCC;
+    -webkit-text-stroke: 1px #000;
     font-size: 1.75em;
 }
 
@@ -49,7 +45,13 @@ td
 {
     border: 1px solid #000;
     padding: 10px 10px;
-    background-color: rgba(100, 100, 100, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #FFF;
+}
+
+td img
+{
+    width: 100px;
 }
 
 a
@@ -59,21 +61,21 @@ a
     color: #CCC;
 }
 
-
-td img
+hr
 {
-    width: 100px;
+    color: transparent;
 }
 
 p, li
 {
-    color: #000;
-    -webkit-text-stroke: 0.8px #FFF;
+    color: #FFF;
+    -webkit-text-stroke: 1px #000;
 }
 
 p img
 {
     width: 50px;
+    background-color: rgba(0, 0, 0, .45);
 }
 
 .bold
@@ -86,19 +88,18 @@ p img
     font-size: larger;
 }
 
-.color-CCC
+.highlighter
 {
     color: #CCC;
     -webkit-text-stroke: 1px #000;
-    width: 100%;
 }
 
 .characters a
 {
     width: 17.5%;
+    min-width: 350px;
     float: left;
-    margin: 0px 3.75%;
-    min-width: 300px;
+    margin: 0 50px;
     text-align: center;
     transition: 200ms;
 }
@@ -109,24 +110,16 @@ p img
     transition: 200ms;
 }
 
+.characters h2
+{
+    font-size: 2.25em;
+}
+
 .characters img
 {
     width: 100%;
 }
 
-.header
-{
-    text-align: left;
-    top: 0%;
-    left: 0%;
-    min-width: none;
-    width: 50%;
-    padding-right: 60%;
-    min-width: 400px;
-    position: absolute;
-    position: fixed;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .45), rgba(0, 0, 0, .0));
-}
 
 .img-100px
 {
@@ -134,23 +127,40 @@ p img
     float: right;
 }
 
+.header
+{
+    text-align: left;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    position: absolute;
+    position: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .45), rgba(0, 0, 0, .0));
+}
+
+.header img
+{
+    height: 50px;
+    margin-top: 15px;
+}
+
+.header a
+{
+    margin-left: 30px;
+    float: left;
+}
+
+.header h2:hover
+{
+    color: #AAA;
+}
+
 .main-img
 {
     clear: both;
     width: 55%;
-    min-width: 350px;
     float: right;
     margin: 0px 2%;
-}
-
-.left
-{
-    float: left;
-}
-
-.right
-{
-    float: right;
 }
 
 #SM-html
@@ -180,36 +190,43 @@ p img
     background-position-x: center;
 }
 
-
-.header img
-{
-    height: 50px;
-    margin-top: 15px;
-}
-
-.header a
-{
-    margin-left: 30px;
-    float: left;
-}
-
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 900px)
 {
     body
     {
         font-size: 32px;
-        background-position-x: left;
+        margin: 0 2.5%;
+        margin-top: 70px;
     }
 
     h1
     {
         font-size: 2em;
+        -webkit-text-stroke: 0px;
+        color: #AAA;
     }
 
-    p, li, h2, h1
+    h2
+    {
+        font-size: 1.5em;
+        -webkit-text-stroke: 0px;
+        color: #999;
+    }
+
+    td
+    {
+        font-size: 30px;
+    }
+
+    p, li
     {
         -webkit-text-stroke: 0px;
-        color: #000;
+        color: #FFF;
+    }
+
+    p img
+    {
+        width: 75px;
     }
 
     .header
@@ -217,15 +234,53 @@ p img
         width: 100%;
     }
 
-    .header h2
-    {
-        font-size: 1.5em;
-        color: #FFF;
-    }
-
     .main-img
     {
         float: none;
         width: 95%;
+    }
+
+    .highlighter
+    {
+        -webkit-text-stroke: 0px;
+        color: #222;
+    }
+
+    .characters a
+    {
+        width: 60%;
+        margin: 0 20%;
+    }
+
+    .characters h2
+    {
+        font-size: 2.5em;
+    }
+
+    #main-html
+    {
+        background-image: linear-gradient(90deg, rgb(50, 50, 50), rgb(85,85,85), rgb(110,110,110));
+        background-repeat: repeat-y;
+        background-size: contain;
+    }
+
+    #main-html h1
+    {
+        color: #000;
+    }
+
+    #main-html h2
+    {
+        color: #111;
+    }
+
+    #main-html .highlighter
+    {
+        color: #999;
+    }
+
+    #main-html .header h2
+    {
+        color: #CCC;
     }
 }
