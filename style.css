@@ -251,7 +251,6 @@ p img
 
     #main-html
     {
-        font-size: 32px;
         background-image: linear-gradient(90deg, rgb(50, 50, 50), rgb(85,85,85), rgb(110,110,110));
         background-repeat: repeat-y;
         background-size: contain;
