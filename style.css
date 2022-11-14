@@ -8,6 +8,7 @@ body
     background-position: right top;
     margin: 75px 50% 0 0;
     font-weight: 1000;
+    min-width: 600px;
 }
 
 div
@@ -191,6 +192,7 @@ p img
     {
         margin: 0 2.5%;
         margin-top: 70px;
+        font-size: 18px;
     }
 
     h1
@@ -204,11 +206,6 @@ p img
     {
         font-size: 1.5em;
         -webkit-text-stroke: 0px;
-    }
-
-    td
-    {
-        font-size: 30px;
     }
 
     p, li
