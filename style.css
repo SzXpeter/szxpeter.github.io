@@ -25,7 +25,7 @@ h1
 
 h2
 {
-    color: #CCC;
+    color: #777;
     -webkit-text-stroke: 1px #000;
     font-size: 1.75em;
 }
@@ -70,7 +70,6 @@ p, li
 p img
 {
     width: 50px;
-    background-color: rgba(0, 0, 0, .45);
 }
 
 .bold
@@ -85,7 +84,7 @@ p img
 
 .highlighter
 {
-    color: #CCC;
+    color: #888;
     -webkit-text-stroke: 1px #000;
 }
 
@@ -199,14 +198,13 @@ p img
     {
         font-size: 2em;
         -webkit-text-stroke: 0px;
-        color: #AAA;
+        color: #999;
     }
 
     h2
     {
         font-size: 1.5em;
         -webkit-text-stroke: 0px;
-        color: #999;
     }
 
     td
@@ -217,7 +215,6 @@ p img
     p, li
     {
         -webkit-text-stroke: 0px;
-        color: #FFF;
     }
 
     p img
