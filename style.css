@@ -220,6 +220,22 @@ p img
         width: 100%;
     }
 
+    .header a
+    {
+        margin-left: 20px;
+    }
+
+    .header h2
+    {
+        font-size: 1.75em;
+    }
+
+    .header img
+    {
+        margin-top: 25px;
+        height: 40px;
+    }
+
     .main-img
     {
         float: none;
