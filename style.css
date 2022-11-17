@@ -263,7 +263,7 @@ p img
 
     #main-html
     {
-        background-image: linear-gradient(90deg, rgb(50, 50, 50), rgb(85,85,85), rgb(110,110,110));
+        background-image: linear-gradient(90deg, #161c21, #33464e 40%, #2c3a42 70%, #151d23);
         background-repeat: repeat-y;
         background-size: contain;
         margin: 75px 2.5%;
