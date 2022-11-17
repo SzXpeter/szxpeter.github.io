@@ -8,6 +8,7 @@ body
     background-position: right top;
     margin: 75px 50% 0 2.5%;
     font-weight: 1000;
+    min-width: 500px;
 }
 
 div
@@ -21,6 +22,7 @@ h1
     text-align: center;
     font-size: 2.5em;
     -webkit-text-stroke: 2.5px #000;
+    margin-bottom: 0;
 }
 
 h2
@@ -28,6 +30,7 @@ h2
     color: #777;
     -webkit-text-stroke: 1px #000;
     font-size: 1.75em;
+    margin-bottom: 10px;
 }
 
 li
@@ -192,6 +195,7 @@ p img
         background-position-x: left;
         margin: 75px 2.5%;
         font-size: 16px;
+        min-width: 0;
     }
 
     h1
@@ -253,17 +257,8 @@ p img
     {
         width: 65%;
         clear: both;
-        margin: -30px 17.5%;
-    }
-
-    .characters h2
-    {
-        font-size: 2.5em;
-    }
-
-    .characters img
-    {
-        margin-top: -40px;
+        margin: -20px 17.5%;
+        min-width: 0;
     }
 
     #main-html
